@@ -1,0 +1,19 @@
+@include('components/_head.html', { "pageTitle": "SimpleFood" })
+
+<div class="wrapper">
+  @include('components/_overlay.html') @include('components/_menu-mobile.html')
+  @include('components/_header.html')
+
+  <main class="main">
+    @include('page-index/_section-hero.html')
+    @include('page-index/_section-popular.html')
+    @include('page-index/_section-service.html')
+    @include('page-index/_section-best.html')
+    @include('page-index/_section-comments.html')
+    @include('components/_section-application.html')
+  </main>
+
+  @include('components/_footer.html')
+</div>
+
+@include('components/_footer-scripts.html')

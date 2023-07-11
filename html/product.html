@@ -1,0 +1,17 @@
+@include('components/_head.html', { "pageTitle": "Продукт" })
+
+<div class="wrapper">
+  @include('components/_overlay.html') @include('page-product/_menu-mobile_product.html')
+  @include('page-product/_header-product.html')
+
+  <main class="main">
+    @include('page-product/_breadcrumbs-product.html')
+    @include('page-product/_section-product.html')
+    @include('page-product/_modal.html') @include('page-product/_switches.html')
+    @include('page-product/_product-slider.html')
+  </main>
+
+    @include('components/_footer.html')
+</div>
+
+@include('components/_footer-scripts.html')

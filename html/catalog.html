@@ -1,0 +1,18 @@
+@include('components/_head.html', { "pageTitle": "Каталог" })
+
+<div class="wrapper">
+  @include('components/_overlay.html') @include('page-catalog/_menu-mobile_catalog.html')
+  @include('page-catalog/_header-catalog.html')
+
+
+  <main class="main">
+    @include('components/_breadcrumbs.html')
+    @include('page-catalog/_section-catalog.html')
+    @include('components/_section-application.html')
+    @include('page-catalog/_section-stocks.html')
+  </main>
+
+  @include('components/_footer.html')
+</div>
+
+@include('components/_footer-scripts.html')
