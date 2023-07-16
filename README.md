@@ -1,4 +1,4 @@
-# website-Simplefood
+# Интернет магазин Simplefood
 - HTML 5
 - CSS 3
 - JavaScript
